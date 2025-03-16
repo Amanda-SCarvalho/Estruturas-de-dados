@@ -19,16 +19,18 @@ console.log(cores)
 console.log(categoria)
  
 // Ele permiti limitar ao utilizar essa sintaxe
+// Defini o valor fixo de 5
 let clientes = new Array(5)
  
+// Com o console.log é possivel converter um objeto array em texto para ser exibido no terminal
 console.log(clientes)
  
 //adicionando um elemento após a criação de um vetor/array ilimitada
  
-//adicionando no fim do vetor
+//A função PUSH: adiciona um elemento no fim do vetor
 marcas.push('Jeep')
  
-//adicionando no inicio do vetor
+//a função UNSHIFT: adiciona um elemento no inicio do vetor
 marcas.unshift('VW')
 console.log(marcas)
  
