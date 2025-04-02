@@ -82,7 +82,7 @@ console.log(texto3)
 let numeros = [0,1,2,3,4,5,6,7,8,9,10]
 let tabuada = numeros.map(x=> x*2)
 
-//console.log(tabuada)
+console.log(tabuada)
 //A função FILTER: cria um novo array sobre os elementos que passaram nos testes implementados na função
 let pares = numeros.filter(x=> {if (x == 0){}else{ return x%2==0 }})
 
